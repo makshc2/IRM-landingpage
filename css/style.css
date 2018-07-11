@@ -327,7 +327,7 @@ textarea.form-control{
 /********** INNER START *********/
 .inner{
     height: 100vh;
-    background: url("../img/inner-bg.jpg") no-repeat center / cover;
+    /*background: url("../img/inner-bg.jpg") no-repeat center / cover;*/
     text-align: center;
     position: relative;
 }
