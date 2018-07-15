@@ -25,7 +25,8 @@ a:hover, a:active, a:focus{
     text-decoration: none;
 }
 img{
-    max-width: 100%;
+    max-width: 55%;
+    margin-left: 25px;
 }
 textarea{
     resize: vertical;
@@ -281,7 +282,7 @@ textarea.form-control{
     float: right;
     color: rgba(255, 255, 255, .75);
     line-height: 21px;
-    font-size: 11px;
+    font-size: 14px;
     letter-spacing: .3em;
     text-transform: uppercase;
 }
@@ -327,7 +328,7 @@ textarea.form-control{
 /********** INNER START *********/
 .inner{
     height: 100vh;
-    /*background: url("../img/inner-bg.jpg") no-repeat center / cover;*/
+    background: url("../img/inner-bg.jpg") no-repeat center / cover;
     text-align: center;
     position: relative;
 }
