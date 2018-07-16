@@ -269,7 +269,7 @@ textarea.form-control{
 
 /********** HEADER START **********/
 .header{
-    background-color: transparent;
+    background-color: #000;
     position: absolute;
     left: 0;
     right: 0;
@@ -281,8 +281,9 @@ textarea.form-control{
 }
 .header-nav{
     float: right;
-    color: rgba(255, 255, 255, .75);
+    color: #fff;
     line-height: 21px;
+    font-weight: bold;
     font-size: 14px;
     letter-spacing: .3em;
     text-transform: uppercase;
@@ -318,6 +319,7 @@ textarea.form-control{
     }
     .header-nav a{
         display: block;
+        color:#fff;
     }
     .header-nav a + a{
         margin-top: 10px;
@@ -330,6 +332,7 @@ textarea.form-control{
 .inner{
     height: 100vh;
     background: url("../img/inner-bg.jpg") no-repeat center / cover;
+    opacity: 0.7;
     text-align: center;
     position: relative;
 }

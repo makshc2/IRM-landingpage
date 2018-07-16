@@ -9,7 +9,7 @@ function onScroll() {
         header.css({
             'position': 'fixed',
             'top': '-75px',
-            'background-color': '#000'
+            'background-color': '#000',
         })
     }
 
@@ -24,7 +24,7 @@ function onScroll() {
         header.css({
             'position': 'absolute',
             'top': '0',
-            'background-color': 'transparent',
+            'background-color': '#000',
             'transition': 'none'
         })
     }
