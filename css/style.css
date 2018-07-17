@@ -54,6 +54,17 @@ textarea{
     padding: 70px 0;
 }
 
+.irm_focus{
+    padding-top: 20px;
+}
+
+.square{
+    list-style-type:square;
+}
+.square li, .irm_focus span{
+    padding-bottom: 12px;
+}
+
 @media (max-width: 767px){
     .default-section{
         padding: 80px 0;
@@ -107,9 +118,16 @@ blockquote{
     line-height: 1.6;
 }
 blockquote span{
-    font-size: 11px;
+    font-size: 20px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .2em;
+    color: #000000;
+}
+
+.img_build img{
+    margin-top:-103px;
+    margin-left: 100px;
 }
 
 @media (max-width: 991px){
@@ -478,6 +496,10 @@ textarea.form-control{
     font-size: 12px;
 }
 
+.irm_span{
+
+}
+
 @media (max-width: 1199px){
     .about-studio .team-item .team-item-img .team-item-skills{
         padding: 30px;
@@ -510,7 +532,8 @@ textarea.form-control{
 
 /******* SERVICES START *******/
 .services-tab .nav-tabs > li{
-    width: 20%;
+    width: 13%;
+    padding-right: 10px;
     text-align: center;
 }
 .services-tab .nav-tabs > li a{
@@ -525,6 +548,11 @@ textarea.form-control{
 }
 .services-tab .tab-content{
     margin-top: 65px;
+}
+
+.text{
+    font-size: 14px;
+    text-transform: none;
 }
 
 @media (max-width: 991px){
@@ -662,6 +690,7 @@ textarea.form-control{
 /******** REVIEWS START *******/
 .reviews{
     overflow: hidden;
+    margin-top: -191px;
 }
 .reviews .carousel{
     padding: 140px 0;
