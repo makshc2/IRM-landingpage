@@ -579,6 +579,9 @@ textarea.form-control{
 .services-tab .tab-content{
     margin-top: 65px;
 }
+.tab-content .row{
+    display: flex;
+}
 
 .text{
     font-size: 14px;
