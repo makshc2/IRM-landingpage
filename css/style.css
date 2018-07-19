@@ -140,6 +140,13 @@ blockquote span{
 .default-text{
     font-size: 15px;
     line-height: 1.733;
+    color: #000;
+}
+
+.tabpanel_span{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /********** TABS START **********/
@@ -241,7 +248,7 @@ blockquote span{
     border: 1px solid rgba(0, 0, 0, .7);
 }
 .rhomb-icon.transparent-icon:hover{
-    background-color: #111;
+    background-color: #337ab7;
     color: #fff;
 }
 .rhomb-icon.large-icon{
@@ -308,7 +315,7 @@ textarea.form-control{
 }
 .header-nav a:hover,
 .header-nav a:focus{
-    color: rgba(255, 255, 255, 1);
+    color: #337ab7;
 }
 .header-nav a + a{
     margin-left: 35px;
@@ -398,11 +405,17 @@ textarea.form-control{
         letter-spacing: .7em;
         text-indent: .7em;
     }
+    .img_build img{
+      display: none;
+    }
 }
 @media (max-width: 767px){
     .inner{
         height: auto;
         padding: 150px 0;
+    }
+    .img_build img{
+        display: none;
     }
 }
 @media (max-width: 599px){
@@ -410,11 +423,17 @@ textarea.form-control{
         letter-spacing: .5em;
         text-indent: .5em;
     }
+    .img_build img{
+        display: none;
+    }
 }
 @media (max-width: 479px){
     .inner-content h1{
         letter-spacing: .2em;
         text-indent: .2em;
+    }
+    .img_build img{
+        display: none;
     }
 }
 /********** INNER END *********/
@@ -425,6 +444,17 @@ textarea.form-control{
 }
 .about-studio .about-studio-text{
     margin-bottom: 100px;
+}
+.about_irm{
+    color: #337ab7;
+    font-weight: bold;
+}
+.irm_span{
+    padding-left: 130px;
+}
+.text_about-par{
+    padding: 20px 13px;
+    border: 4px outset black;
 }
 .about-studio .team-item .team-item-img{
     margin-bottom: 27px;
@@ -553,6 +583,7 @@ textarea.form-control{
 .text{
     font-size: 14px;
     text-transform: none;
+    color: #337ab7;
 }
 
 @media (max-width: 991px){
