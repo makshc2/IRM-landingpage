@@ -138,6 +138,7 @@ blockquote span{
 /***** BLOCKQUOTE END *****/
 
 .default-text{
+    margin-top: 10px;
     font-size: 15px;
     line-height: 1.733;
     color: #000;
@@ -147,6 +148,16 @@ blockquote span{
     color: black;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.dedicated{
+    max-width: 100%;
+    font-size: 20px;
+}
+.irm_focus-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /********** TABS START **********/
@@ -161,9 +172,8 @@ blockquote span{
     margin-right: 0;
     border: none;
     color: rgba(17, 17, 17, .5);
-    font-family: "Dosis", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 400;
-    letter-spacing: .4em;
     text-transform: uppercase;
 }
 .nav-tabs > li.active > a,
@@ -454,7 +464,7 @@ textarea.form-control{
 }
 .text_about-par{
     padding: 20px 13px;
-    border: 4px outset black;
+    border: 4px double black;
 }
 .about-studio .team-item .team-item-img{
     margin-bottom: 27px;
@@ -581,12 +591,17 @@ textarea.form-control{
 }
 .tab-content .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .text{
     font-size: 14px;
     text-transform: none;
     color: #337ab7;
+}
+
+.header_title{
+    margin-top: 20px;
 }
 
 @media (max-width: 991px){
