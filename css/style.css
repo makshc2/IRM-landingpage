@@ -34,6 +34,41 @@ textarea{
 }
 /* RESET END */
 
+/*animation*/
+.area {
+    text-align: center;
+    font-size: 3.5em;
+    color: #000;
+    animation: blur 2.75s ease-out infinite;
+    text-shadow: 0 0 5px #fff, 0 0 7px #fff;
+}
+
+@keyframes blur {
+    from {
+        text-shadow:0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 25px #fff,
+        0 0 25px #fff,
+        0 0 25px #fff,
+        0 0 25px #fff,
+        0 0 25px #fff,
+        0 0 25px #fff,
+        0 0 50px #fff,
+        0 0 50px #fff,
+        0 0 50px #7B96B8,
+        0 0 150px #7B96B8,
+        0 10px 100px #7B96B8,
+        0 10px 100px #7B96B8,
+        0 10px 100px #7B96B8,
+        0 10px 100px #7B96B8,
+        0 -10px 100px #7B96B8,
+        0 -10px 100px #7B96B8;
+    }
+}
+
+
+
+
 /* DEFAULT CLASSES START */
 .bg-black{
     background-color: #111;
@@ -89,9 +124,7 @@ textarea{
     margin-bottom: 80px;
     letter-spacing: .5em;
 }
-.title > *{
-    font-size: 18px;
-}
+
 .small-title{
     letter-spacing: .4em;
 }
