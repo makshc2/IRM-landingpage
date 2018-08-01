@@ -39,35 +39,17 @@ textarea{
     text-align: center;
     font-size: 3.5em;
     color: #000;
-    animation: blur 2.75s ease-out infinite;
-    text-shadow: 0 0 5px #fff, 0 0 7px #fff;
+    text-shadow: 0 0 22px #fff, 0 0 14px #fff;
 }
 
-@keyframes blur {
-    from {
-        text-shadow:0 0 10px #fff,
-        0 0 10px #fff,
-        0 0 25px #fff,
-        0 0 25px #fff,
-        0 0 25px #fff,
-        0 0 25px #fff,
-        0 0 25px #fff,
-        0 0 25px #fff,
-        0 0 50px #fff,
-        0 0 50px #fff,
-        0 0 50px #7B96B8,
-        0 0 150px #7B96B8,
-        0 10px 100px #7B96B8,
-        0 10px 100px #7B96B8,
-        0 10px 100px #7B96B8,
-        0 10px 100px #7B96B8,
-        0 -10px 100px #7B96B8,
-        0 -10px 100px #7B96B8;
-    }
+.wrapper {
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    left: 5%;
+    font-size: 30px;
+    height: 175px;
 }
-
-
-
 
 /* DEFAULT CLASSES START */
 .bg-black{
@@ -95,6 +77,11 @@ textarea{
 
 .image_irm-focus{
     margin: -65px 0 30px 0;
+}
+
+.center_info{
+    display: flex;
+    justify-content: center;
 }
 
 .square{
@@ -190,6 +177,9 @@ blockquote span{
 .dedicated{
     max-width: 100%;
     font-size: 20px;
+    padding: 35px;
+    border: #000 double;
+    border-radius: 9px;
 }
 .irm_focus-flex{
     display: flex;
@@ -506,6 +496,10 @@ textarea.form-control{
     padding: 20px 13px;
     border: 4px double black;
 }
+.text_about-par p{
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+}
 .about-studio .team-item .team-item-img{
     margin-bottom: 27px;
     position: relative;
@@ -773,9 +767,12 @@ textarea.form-control{
 /***** WHY-CHOOSE-US END ******/
 
 /******** REVIEWS START *******/
+
+.start-project{
+    margin-top: -140px;
+}
 .reviews{
     overflow: hidden;
-    margin-top: -191px;
 }
 .reviews .carousel{
     padding: 140px 0;
