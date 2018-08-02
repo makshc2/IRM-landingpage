@@ -129,37 +129,7 @@ textarea{
         margin-bottom: 40px;
     }
 }
-/******* TITLE END ********/
-
-/**** BLOCKQUOTE START ****/
-blockquote{
-    padding: 0;
-    margin: 0;
-    border: none;
-    font-size: 24px;
-    line-height: 1.6;
-}
-blockquote span{
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: #000000;
-}
-
-.img_build img{
-    margin-top:-103px;
-    margin-left: 100px;
-}
-
-@media (max-width: 991px){
-    blockquote{
-        margin-bottom: 20px;
-    }
-}
-/***** BLOCKQUOTE END *****/
-
-.default-text{
+/******* TITLE END ********/.default-text{
     margin-top: 10px;
     font-size: 15px;
     line-height: 1.733;
@@ -501,6 +471,15 @@ textarea.form-control{
 /********** INNER END *********/
 
 /***** ABOUT-STUDIO START *****/
+
+.image_about{
+    background: url("../img/consulting-3031678_640.jpg") no-repeat center / cover;
+    height: 50vh;
+    margin-top: 10px;
+}
+.text_about-wrapper{
+    margin-top: 50px;
+}
 .about-studio{
     border-bottom: 1px solid #ececec;
 }
@@ -514,10 +493,7 @@ textarea.form-control{
 .irm_span{
     padding-left: 130px;
 }
-.text_about-par{
-    padding: 20px 13px;
-    border: 4px double black;
-}
+
 .text_about-par p{
     font-size: 24px;
     font-family: 'Dosis', sans-serif;
@@ -671,7 +647,6 @@ textarea.form-control{
     -webkit-transition: all 1s ease;
 }
 
-
 @media (max-width: 991px){
     .services-tab .nav-tabs > li{
         width: 33.333%;
@@ -744,9 +719,12 @@ textarea.form-control{
 /***** WHY-CHOOSE-US END ******/
 
 /******** REVIEWS START *******/
-
+.background_black{
+    margin-top: -192px;
+}
 .start-project{
-    margin-top: -140px;
+    background: url("../img/office-1209640_1280.jpg") no-repeat center / cover;
+    height: 100vh;
 }
 .reviews{
     overflow: hidden;
