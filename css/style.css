@@ -39,7 +39,7 @@ textarea{
     text-align: center;
     font-size: 3.5em;
     color: #000;
-    text-shadow: 0 0 22px #fff, 0 0 14px #fff;
+    text-shadow: 0 0 5px #fff, 0 0 7px #fff;
 }
 
 .wrapper {
@@ -401,7 +401,8 @@ textarea.form-control{
     text-indent: 40px;
     color: rgba(255, 255, 255, .9);
 }
-.inner-content span{
+.welcome_section-span{
+    max-width: 735px;
     font-size: 25px;
     font-weight: 300;
     color: #fff;
@@ -599,9 +600,10 @@ textarea.form-control{
 /****** ABOUT-STUDIO END ******/
 
 /******* SERVICES START *******/
+
 .services-tab .nav-tabs > li{
     width: 13%;
-    padding-right: 10px;
+    padding-right: 19px;
     text-align: center;
 }
 .services-tab .nav-tabs > li a{
@@ -623,6 +625,39 @@ textarea.form-control{
     justify-content: center;
 }
 
+.tpl-tabs{
+    border-color: #e5e5e5 !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+    border-bottom: 1px solid #ddd !important;
+}
+.tpl-tabs>li{
+    padding-bottom: 4px !important;
+    padding-top: 6px;
+}
+
+.tpl-tabs>li>a{
+    padding: 10px;
+    color: #777 !important;
+    border-radius: 0 !important;
+    border: 1px solid transparent;
+    font-size: 12px !important;
+    text-decoration: none !important;
+}
+.tpl-tabs>li:hover{
+    background-color: #f5f5f5;
+    border: none !important;
+}
+.tpl-tabs>li>a:hover{
+    border: none !important;
+}
+.tpl-tabs li.active a{
+    color: #000 !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-bottom-color: transparent !important;
+    cursor: default !important;
+}
 .text{
     font-size: 14px;
     color: #337ab7;
