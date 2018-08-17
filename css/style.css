@@ -402,9 +402,10 @@ textarea.form-control{
     color: rgba(255, 255, 255, .9);
 }
 .welcome_section-span{
-    max-width: 735px;
+    max-width: 891px;
     font-size: 25px;
     font-weight: 300;
+    line-height: normal;
     color: #fff;
 }
 .inner .rhomb-icon{
@@ -613,7 +614,7 @@ textarea.form-control{
     display: block;
 }
 .services-tab .nav-tabs > li .icon{
-    font-size: 48px;
+    font-size: 37px;
     margin-bottom: 30px;
 }
 .services-tab .tab-content{
@@ -659,7 +660,7 @@ textarea.form-control{
     cursor: default !important;
 }
 .text{
-    font-size: 14px;
+    font-size: 12px;
     color: #337ab7;
 }
 
@@ -754,12 +755,9 @@ textarea.form-control{
 /***** WHY-CHOOSE-US END ******/
 
 /******** REVIEWS START *******/
-.background_black{
-    margin-top: -192px;
-}
 .start-project{
     background: url("../img/office-1209640_1280.jpg") no-repeat center / cover;
-    height: 100vh;
+    height: 42vh;
 }
 .reviews{
     overflow: hidden;
