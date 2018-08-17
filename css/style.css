@@ -758,6 +758,7 @@ textarea.form-control{
 .start-project{
     background: url("../img/office-1209640_1280.jpg") no-repeat center / cover;
     height: 42vh;
+    margin-top: -130px;
 }
 .reviews{
     overflow: hidden;
