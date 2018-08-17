@@ -690,16 +690,21 @@ textarea.form-control{
     }
     .services-tab .tab-content{
         margin-top: 35px;
+        padding: 15px;
     }
 }
 @media (max-width: 767px){
     .services-tab .default-text{
         margin-bottom: 20px;
     }
+
 }
 @media (max-width: 479px){
     .services-tab .nav-tabs > li{
         width: 50%;
+    }
+    .image_about, .default-small-section {
+        display: none;
     }
 }
 /******** SERVICES END ********/
