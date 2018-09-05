@@ -601,7 +601,10 @@ textarea.form-control{
 /****** ABOUT-STUDIO END ******/
 
 /******* SERVICES START *******/
-
+.text_tabs{
+    word-spacing: 2px;
+    line-height: 22px;
+}
 .services-tab .nav-tabs > li{
     width: 13%;
     padding-right: 19px;
