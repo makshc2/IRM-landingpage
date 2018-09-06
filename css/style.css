@@ -129,11 +129,16 @@ textarea{
         margin-bottom: 40px;
     }
 }
-/******* TITLE END ********/.default-text{
+/******* TITLE END ********/
+.default-text{
     margin-top: 10px;
-    font-size: 15px;
-    line-height: 1.733;
-    color: #000;
+    color: #867e7a;
+    font-family: "Avenir LT W01_55 Roman1475520", sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    line-height: 1.6;
+
 }
 
 .tabpanel_span{
@@ -477,10 +482,9 @@ textarea.form-control{
 .image_about{
     background: url("../img/consulting-3031678_640.jpg") no-repeat center / cover;
     height: 50vh;
-    margin-top: 10px;
 }
 .text_about-wrapper{
-    margin-top: 50px;
+    height: 50vh;
 }
 .about-studio{
     border-bottom: 1px solid #ececec;
@@ -601,31 +605,29 @@ textarea.form-control{
 /****** ABOUT-STUDIO END ******/
 
 /******* SERVICES START *******/
-.text_tabs{
-    color:#000;
-    font-size: 19px;
-    word-spacing: 2px;
-    line-height: 22px;
-    position:relative;
-    width:100%;
-    padding:2em;
-    background:#fff;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+.text_tabs {
+    padding: 24px 2px 24px 53px;
+    margin:0 !important;
+    background-color: #d7e1ea;
+    color: #867e7a;
+    font-family: "Avenir LT W01_55 Roman1475520", sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    line-height: 1.6;
 }
-.text_tabs:before,
-.text_tabs:after {
-    content:"";
-    position:absolute;
-    z-index:-2;
+.text_tabs-about{
+    height: 50vh;
 }
-
-.text_tabs ul>li{
-    list-style-type: disc;
+.benefits_padding{
+    padding-bottom: 20px;
+}
+.services_table{
+    margin-bottom: 60px;
+}
+.section-text{
+    margin-left: -3px;
+    background-color: #d7e1ea;
 }
 .services-tab .nav-tabs > li{
     width: 13%;
@@ -642,9 +644,7 @@ textarea.form-control{
     font-size: 37px;
     margin-bottom: 30px;
 }
-.services-tab .tab-content{
-    margin-top: 65px;
-}
+
 .tab-content .row{
     display: flex;
     flex-wrap: wrap;
@@ -679,7 +679,7 @@ textarea.form-control{
 }
 .tpl-tabs li.active a{
     color: #000 !important;
-    background-color: #fff !important;
+    background-color: #d7e1ea!important;
     border: 1px solid #ddd !important;
     border-bottom-color: transparent !important;
     cursor: default !important;
