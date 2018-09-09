@@ -617,7 +617,16 @@ textarea.form-control{
     line-height: 1.6;
     float: right;
 }
+.rhomb-icon-linkedin{
+     left: 10% !important;
+ }
 
+.social-nav{
+    position: absolute;
+    left: 3%;
+    top: 16%;
+    transform: scale(1.5,1.5);
+}
 .overview_capabilities{
     height: 30vh;
 }
