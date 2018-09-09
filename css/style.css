@@ -617,6 +617,10 @@ textarea.form-control{
     line-height: 1.6;
     float: right;
 }
+
+.overview_capabilities{
+    height: 30vh;
+}
 .text_tabs-about{
     height: 50vh;
 }
