@@ -640,6 +640,7 @@ textarea.form-control{
     margin-bottom: 60px;
 }
 .section-text{
+    width: 61vw;
     margin-left: -3px;
     background-color: #d7e1ea;
 }
@@ -664,7 +665,9 @@ textarea.form-control{
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.text__bold{
+    font-weight: bold;
+}
 .tpl-tabs{
     border-color: #e5e5e5 !important;
     font-weight: 400 !important;
