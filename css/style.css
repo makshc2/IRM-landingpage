@@ -483,9 +483,7 @@ textarea.form-control{
     background: url("../img/consulting-3031678_640.jpg") no-repeat center / cover;
     height: 61vh;
 }
-.text_about-wrapper{
-    height: 50vh;
-}
+
 .about-studio{
     border-bottom: 1px solid #ececec;
 }
@@ -629,9 +627,6 @@ textarea.form-control{
 }
 .overview_capabilities{
     height: 30vh;
-}
-.text_tabs-about{
-    height: 61vh;
 }
 
 .text_tabs-about p{
