@@ -608,7 +608,7 @@ textarea.form-control{
 .text_tabs {
     padding: 24px 53px;
     margin:0 !important;
-    background-color: #d7e1ea;
+    /*background-color: #d7e1ea;*/
     color: #867e7a;
     font-family: "Avenir LT W01_55 Roman1475520", sans-serif;
     font-weight: normal;
