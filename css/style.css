@@ -481,7 +481,7 @@ textarea.form-control{
 
 .image_about{
     background: url("../img/consulting-3031678_640.jpg") no-repeat center / cover;
-    height: 50vh;
+    height: 61vh;
 }
 .text_about-wrapper{
     height: 50vh;
@@ -623,15 +623,20 @@ textarea.form-control{
 
 .social-nav{
     position: absolute;
-    left: 3%;
-    top: 16%;
+    left: 95vw;
+    top: 22vh;
     transform: scale(1.5,1.5);
 }
 .overview_capabilities{
     height: 30vh;
 }
 .text_tabs-about{
-    height: 50vh;
+    height: 61vh;
+}
+
+.text_tabs-about p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.9rem;
 }
 .benefits_padding{
     padding-bottom: 20px;
