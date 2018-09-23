@@ -480,6 +480,7 @@ textarea.form-control{
 /***** ABOUT-STUDIO START *****/
 
 .image_about{
+    margin-top: -75px;
     background: url("../img/consulting-3031678_640.png") no-repeat center / cover;
     height: 61vh;
 }
@@ -572,6 +573,30 @@ textarea.form-control{
     font-size: 12px;
 }
 
+.panel-title a {
+    display: block;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #777 !important;
+    text-transform: uppercase;
+}
+.panel-body{
+    padding: 20px 30px;
+}
+.panel-body ul>li, .panel-body{
+    color: #867e7a;
+    font-family: "Avenir LT W01_55 Roman1475520", sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*.panel-body>ul{*/
+    /*padding-left: 18vw;*/
+/*}*/
+.panel-heading{
+    text-align: center;
+}
 @media (max-width: 1199px){
     .about-studio .team-item .team-item-img .team-item-skills{
         padding: 30px;
@@ -604,7 +629,6 @@ textarea.form-control{
 
 /******* SERVICES START *******/
 .text_tabs {
-    padding: 24px 53px;
     margin:0 !important;
     /*background-color: #d7e1ea;*/
     color: #867e7a;
@@ -622,7 +646,7 @@ textarea.form-control{
 .social-nav{
     position: absolute;
     left: 95vw;
-    top: 22vh;
+    top: 30vh;
     transform: scale(1.5,1.5);
 }
 .overview_capabilities{
@@ -632,9 +656,6 @@ textarea.form-control{
 .text_tabs-about p{
     font-family: 'Dosis', sans-serif;
     font-size: 1.9rem;
-}
-.benefits_padding{
-    padding-bottom: 20px;
 }
 .services_table{
     margin-bottom: 60px;
