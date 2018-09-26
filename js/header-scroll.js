@@ -16,7 +16,7 @@ function onScroll() {
     if ( position > windowHeight ) {
         header.css({
             'top': '0',
-            'transition': 'top .3s ease-out'
+            'transition': 'top 10s easy-in'
         })
     }
 
@@ -30,7 +30,7 @@ function onScroll() {
     }
 }
 
-$( window ).on( 'scroll', onScroll );
+$( window ).on( 'keydown', onScroll );
 
 // Scroll to element
 const scrollBtn = $( '[data-scroll]' );
@@ -41,7 +41,7 @@ function onClick( e ) {
     const target = $( this ).attr( 'data-scroll' );
     const dist = $( target ).offset().top;
 
-    $( 'html, body' ).animate( { scrollTop: dist }, 1000, 'swing' );
+    $( 'html, body' ).animate( { scrollTop: dist }, 4000, 'swing' );
 }
 
 scrollBtn.on( 'click', onClick );
