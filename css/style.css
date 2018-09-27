@@ -594,6 +594,11 @@ textarea.form-control{
 /*.panel-body>ul{*/
     /*padding-left: 18vw;*/
 /*}*/
+
+.text__center{
+    display: flex;
+    justify-content: center;
+}
 .panel-heading{
     text-align: center;
 }
