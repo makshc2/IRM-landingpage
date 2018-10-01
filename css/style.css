@@ -247,10 +247,10 @@ textarea{
 /******* RHOMB ICON START *******/
 .rhomb-icon{
     display: inline-block;
-    width: 26px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     text-align: center;
-    line-height: 17px;
+    line-height: 23px;
     border-radius: 2px;
     font-size: 14px;
     transform: rotate(45deg);
@@ -485,13 +485,6 @@ textarea.form-control{
 /********** INNER END *********/
 
 /***** ABOUT-STUDIO START *****/
-
-.image_about{
-    margin-top: -75px;
-    background: url("../img/consulting-3031678_640.png") no-repeat center / cover;
-    height: 61vh;
-}
-
 .about-studio{
     border-bottom: 1px solid #ececec;
 }
@@ -651,8 +644,16 @@ textarea.form-control{
     line-height: 1.6;
     float: right;
 }
-.rhomb-icon-linkedin{
-     left: 10% !important;
+.rhomb-icon.rhomb-icon-linkedin{
+    left: 10% !important;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    text-align: center;
+    line-height: 17px;
+    border-radius: 2px;
+    font-size: 14px;
+    transform: rotate(45deg);
  }
 
 .social-nav{
@@ -778,9 +779,6 @@ textarea.form-control{
 @media (max-width: 479px){
     .services-tab .nav-tabs > li{
         width: 50%;
-    }
-    .image_about, .default-small-section {
-        display: none;
     }
 }
 /******** SERVICES END ********/
