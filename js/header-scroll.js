@@ -30,7 +30,7 @@ function onScroll() {
     }
 }
 
-$( window ).on( 'keydown', onScroll );
+$( window ).on( 'scroll', onScroll );
 
 // Scroll to element
 const scrollBtn = $( '[data-scroll]' );
